@@ -10,33 +10,33 @@ export default function Services() {
       <div className="title">
         <h1 className="yellow">What we do?</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-          incidunt magnam labore ipsam vero minima maxime doloribus dolores ipsa
-          soluta.
+          We provide high-quality, fresh food prepared with passion and expertise. 
+          From sourcing premium ingredients to expert cooking and fast delivery, 
+          we ensure every meal is a memorable dining experience.
         </p>
       </div>
       <div className="services">
         <div className="service">
           <img src={Services2} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Premium quality ingredients sourced from <span>trusted local farms</span> 
+            and suppliers. We ensure freshness and nutritional value in every meal.
           </p>
           <button>Read More</button>
         </div>
         <div className="service yellow">
           <img src={Services1} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Expert chefs crafting <span>delicious dishes</span> with passion and 
+            attention to detail. Every recipe is perfected for taste and presentation.
           </p>
           <button>Read More</button>
         </div>
         <div className="service">
           <img src={Services3} alt="" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Fast and reliable <span>delivery service</span> ensuring your food arrives 
+            hot and fresh. Same-day delivery available in most areas.
           </p>
           <button>Read More</button>
         </div>

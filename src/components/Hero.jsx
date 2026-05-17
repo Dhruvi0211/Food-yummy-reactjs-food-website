@@ -17,10 +17,10 @@ export default function Hero() {
           </h1>
         </div>
         <div className="info">
-          <h2>RETAILER</h2>
+          <h2>FRESH & DELICIOUS</h2>
           <em>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            aspernatur itaque, eius quia voluptas numquam!
+            Experience the finest quality food delivered fresh to your table. 
+            Our premium ingredients and expert preparation guarantee delightful flavors in every bite!
           </em>
           <button>ORDER NOW</button>
         </div>
@@ -52,16 +52,22 @@ const Section = styled.section`
     width: 100%;
     .sale {
       position: relative;
-      left: 10%;
+      left: 5%;
+      flex: 0 0 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       img {
-        height: 70vh;
+        max-height: 55vh;
+        width: 100%;
+        object-fit: contain;
       }
       h1 {
         color: white;
-        position: absolute;
-        top: 25vh;
-        left: 15vh;
+        position: relative;
+        margin-top: 2rem;
         font-size: 4.5rem;
+        line-height: 1.05;
         span {
           display: block;
           font-size: 5vw;
@@ -69,13 +75,14 @@ const Section = styled.section`
       }
     }
     .info {
-      position: absolute;
-      top: 40%;
-      right: 10%;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       gap: 1rem;
+      flex: 0 0 50%;
+      right: 0;
+      padding-right: 5%;
       h2 {
         color: #f9c74f;
         font-size: 4rem;
@@ -83,7 +90,7 @@ const Section = styled.section`
       }
       em {
         color: white;
-        width: 60%;
+        width: 80%;
         text-align: end;
         font-size: 1.1rem;
         line-height: 2rem;

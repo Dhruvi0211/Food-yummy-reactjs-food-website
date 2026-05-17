@@ -41,11 +41,11 @@ export default function Products() {
           return (
             <div className="product">
               <div className="image">
-                <img src={product.image} alt="" />
+                <img src={product.image} alt={product.name} />
               </div>
               <h2>{product.name}</h2>
               <h3>{product.price}</h3>
-              <p>He Printing and Typesetting the industry. Lorem Ipsum has</p>
+              <p>Freshly prepared with premium ingredients. Served hot and delicious, perfect for any occasion.</p>
               <button>Buy Now</button>
             </div>
           );

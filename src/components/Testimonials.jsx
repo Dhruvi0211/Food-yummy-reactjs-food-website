@@ -1,7 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-import avatar1 from "../assets/avatar1.jpg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
+const testimonialsData = [
+  {
+    image:
+      "https://randomuser.me/api/portraits/women/68.jpg",
+    message:
+      "The food quality is absolutely outstanding! Fresh ingredients, incredible flavors, and excellent service. Best food ordering experience I've had!",
+  },
+  {
+    image:
+      "https://randomuser.me/api/portraits/men/52.jpg",
+    message:
+      "Highly recommend this restaurant! The delivery was super fast and the food arrived perfectly hot. Great value for money, will order again!",
+  },
+  {
+    image:
+      "https://randomuser.me/api/portraits/women/45.jpg",
+    message:
+      "Amazing variety of dishes and professional service. The chefs really know their craft. My family loves the food!",
+  },
+];
 export default function Testimonials() {
   return (
     <Section id="testimonials">
@@ -12,33 +31,19 @@ export default function Testimonials() {
           </h1>
         </div>
         <div className="testimonials">
-          <div className="testimonial">
-            <div className="image">
-              <img src={avatar1} alt="" />
+          {testimonialsData.map((item, index) => (
+            <div className="testimonial" key={index}>
+              <div className={`image avatar${index + 1}`}>
+                <img src={item.image} alt="Customer testimonial" />
+              </div>
+              <p>
+                {item.message.split(" ").map((word, i) => {
+                  if (i === 0) return word;
+                  return ` ${word}`;
+                })}
+              </p>
             </div>
-            <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
-            </p>
-          </div>
-          <div className="testimonial">
-            <div className="image">
-              <img src={avatar1} alt="" />
-            </div>
-            <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
-            </p>
-          </div>
-          <div className="testimonial">
-            <div className="image">
-              <img src={avatar1} alt="" />
-            </div>
-            <p>
-              He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-              has been the Industry's
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </Section>
@@ -94,6 +99,15 @@ const Section = styled.section`
           border-radius: 10rem;
           img {
             height: 10rem;
+          }
+          &.avatar1 img {
+            filter: brightness(1) saturate(1);
+          }
+          &.avatar2 img {
+            filter: sepia(0.3) brightness(0.95) saturate(1.1);
+          }
+          &.avatar3 img {
+            filter: hue-rotate(15deg) brightness(1.05) saturate(0.9);
           }
         }
       }

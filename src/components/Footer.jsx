@@ -12,8 +12,8 @@ export default function Footer() {
         <div className="brand container">
           <img src={logo} alt="" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
-            repudiandae.
+            We deliver premium quality food to your doorstep. Passionate about taste, 
+            committed to freshness, and dedicated to your satisfaction.
           </p>
           <ul>
             <li>
@@ -35,9 +35,8 @@ export default function Footer() {
             <h3>About Us</h3>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            eligendi repellat laudantium blanditiis iure nulla, ut aliquam
-            itaque unde nesciunt cum veritatis perferendis vel expedita! Nam
+            Quality food delivered fast to your table. From premium ingredients to expert 
+            preparation, we ensure every meal is memorable. Your satisfaction is our priority!
           </p>
         </div>
         <div className="contact container">

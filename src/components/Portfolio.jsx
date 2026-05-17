@@ -8,10 +8,10 @@ export default function Portfolio() {
         <img src={background} alt="" />
       </div>
       <div className="content">
-        <h1>Buy Premium Pan Free Hand Toast!</h1>
+        <h1>Experience Premium Artisan Cuisine Today!</h1>
         <h2>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-          molestias!
+          Handcrafted dishes made fresh daily with love and finest ingredients.
+          Savor the difference quality makes!
         </h2>
         <button>Buy Now</button>
       </div>
