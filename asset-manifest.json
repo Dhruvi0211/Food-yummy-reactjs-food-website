@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Food-yummy-reactjs-food-website/static/css/main.d714ba87.chunk.css",
-    "main.js": "/Food-yummy-reactjs-food-website/static/js/main.67216c96.chunk.js",
-    "main.js.map": "/Food-yummy-reactjs-food-website/static/js/main.67216c96.chunk.js.map",
+    "main.js": "/Food-yummy-reactjs-food-website/static/js/main.cc5f5572.chunk.js",
+    "main.js.map": "/Food-yummy-reactjs-food-website/static/js/main.cc5f5572.chunk.js.map",
     "runtime-main.js": "/Food-yummy-reactjs-food-website/static/js/runtime-main.07521028.js",
     "runtime-main.js.map": "/Food-yummy-reactjs-food-website/static/js/runtime-main.07521028.js.map",
     "static/js/2.ad99c5d1.chunk.js": "/Food-yummy-reactjs-food-website/static/js/2.ad99c5d1.chunk.js",
@@ -11,7 +11,6 @@
     "static/css/main.d714ba87.chunk.css.map": "/Food-yummy-reactjs-food-website/static/css/main.d714ba87.chunk.css.map",
     "static/js/2.ad99c5d1.chunk.js.LICENSE.txt": "/Food-yummy-reactjs-food-website/static/js/2.ad99c5d1.chunk.js.LICENSE.txt",
     "static/media/HeroDesign.70d4607c.png": "/Food-yummy-reactjs-food-website/static/media/HeroDesign.70d4607c.png",
-    "static/media/avatar1.01418214.jpg": "/Food-yummy-reactjs-food-website/static/media/avatar1.01418214.jpg",
     "static/media/hero.160610bb.jpg": "/Food-yummy-reactjs-food-website/static/media/hero.160610bb.jpg",
     "static/media/portfolio.37317f30.jpg": "/Food-yummy-reactjs-food-website/static/media/portfolio.37317f30.jpg",
     "static/media/product1.8d05cbf9.jpg": "/Food-yummy-reactjs-food-website/static/media/product1.8d05cbf9.jpg",
@@ -23,6 +22,6 @@
     "static/js/runtime-main.07521028.js",
     "static/js/2.ad99c5d1.chunk.js",
     "static/css/main.d714ba87.chunk.css",
-    "static/js/main.67216c96.chunk.js"
+    "static/js/main.cc5f5572.chunk.js"
   ]
 }
